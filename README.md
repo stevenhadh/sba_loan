@@ -16,7 +16,7 @@ covering four categories of information:
 - **Geography**: borrower state, project county, SBA district office,
   and congressional district
 
-We will be predicting two outcomes: `CHGOFF` or charge-off (for defaulted loans), and `PIF` or paid in full (for non-defaulted loans). Loans that are still active and are excluded.
+We will be predicting two outcomes: `CHGOFF` or charge-off (for defaulted loans), and `PIF` or paid in full (for non-defaulted loans). Loans that are still active are excluded.
 
 There is a lack of information such as borrower credit score, business financials, and any lender underwriting data. Every field in the data is structural or administrative, describing the loan and the parties, not the borrower's capacity to repay it. This is a core limitation.
 
